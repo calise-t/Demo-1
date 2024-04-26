@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap');
+:root{
+    --bg-lightblue : #C6D6D0;
+    --bg-beige : #F3EEE8;
+    --text-primary: #29505B;
+    --text-secondary: #222;
+    --shadow: #ababab;
+}
+
+body{
+    font-family: "Cormorant", serif;
+}
+
+header{
+    background-color: var(--bg-lightblue);
+    color: var(--text-primary);
+}
+
+.section1{
+    background-color: var(--bg-lightblue);
+    color: var(--text-primary);
+}
+
+.section1 img{
+    box-shadow: 5px 5px 5px var(--shadow);
+}
+
+.section2{
+    background-color: var(--bg-beige);
+    color: var(--text-primary);
+}
+
+.section2 img{
+    transition: all .2s ease-in-out;
+}
+
+.section2 img:hover{
+    opacity: 0.9;
+    transform: scale(1.1);
+}
+
+.section2 a{
+    text-decoration: none;
+    color: var(--text-primary);
+}
+
+.section3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/marina-shatskih-kBo2MFJz2QU-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 500px;
+}
+
+.subscribe-box {
+    padding: 8%;
+    background-color: var(--bg-lightblue);
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--text-primary)
+}
+
+.sub-btn{
+    padding: 0 3%;
+    background-color: var(--bg-lightblue);
+    color: var(--text-primary);
+    border: 1px solid var(--text-primary);
+    border-radius: 15px;
+}
+
+.sub-btn:hover{
+    background-color: var(--text-primary);
+    color: var(--bg-lightblue);
+}
+
+.section4{
+    background-color: var(--bg-beige);
+    color: var(--text-primary);
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: var(--text-primary);
+    text-align: center;
+    font-size: 110%;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+button{
+    max-width: 50%;
+    margin: 0 auto;
+    background-color: var(--bg-beige);
+    color: var(--text-primary);
+    border: 1px solid var(--text-primary);
+}
+
+button:hover{
+    background-color: var(--text-primary);
+    color: var(--bg-beige);
+    border: 1px solid var(--text-primary);
+}
+
+footer{
+    background-color: var(--bg-lightblue);
+    color: var(--text-primary);
+}
